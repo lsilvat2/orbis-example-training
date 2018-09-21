@@ -1,3 +1,13 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Volutpat maecenas volutpat blandit aliquam etiam erat. Lorem mollis aliquam ut porttitor. Proin libero nunc consequat interdum varius sit amet mattis vulputate. Faucibus a pellentesque sit amet porttitor eget dolor. Scelerisque varius morbi enim nunc.
-
-Erat imperdiet sed euismod nisi porta. Imperdiet nulla malesuada pellentesque elit eget gravida cum. Velit dignissim sodales ut eu sem integer vitae justo. 
+1. git clone git@bitbucket.org:orbisunt/orbis-example-training.git para clonar el repositorio
+2. git remote show origin
+3. git remote set-url origin [repo-github]
+4. git push origin master
+5. git filter-branch --tree-filter 'rm -f sc.16.tar.gz' HEAD
+6. git push origin master
+7. git rebase -i HEAD[colita de chancho]6
+8. git count-objects -v 
+	size: 150749
+9. rm -Rf .git/refs/original
+10. rm -Rf .git/logs/
+11. git count-objects -v
+	size: 150303 
